@@ -77,7 +77,6 @@
             ],
             "aliases": {
                 "Validate": "AnvarUlugov\\Validate\\Facades\\Validate"
-                "Validate": "AnvarUlugov\\Validate\\Facades\\Validate"
             }
         }
     },
