@@ -4,7 +4,7 @@ namespace AnvarUlugov\Validate\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Anvar Ulugov\Validate\ValidateServiceProvider;
+use AnvarUlugov\Validate\ValidateServiceProvider;
 
 class TestCase extends Orchestra
 {
@@ -13,7 +13,7 @@ class TestCase extends Orchestra
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'Anvar Ulugov\\Validate\\Database\\Factories\\'.class_basename($modelName).'Factory'
+            fn (string $modelName) => 'AnvarUlugov\\Validate\\Database\\Factories\\'.class_basename($modelName).'Factory'
         );
     }
 

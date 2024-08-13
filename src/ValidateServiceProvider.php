@@ -4,7 +4,7 @@ namespace AnvarUlugov\Validate;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Anvar Ulugov\Validate\Commands\ValidateCommand;
+use AnvarUlugov\Validate\Commands\ValidateCommand;
 
 class ValidateServiceProvider extends PackageServiceProvider
 {

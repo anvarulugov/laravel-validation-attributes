@@ -5,7 +5,7 @@ namespace AnvarUlugov\Validate\Facades;
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Anvar Ulugov\Validate\Validate
+ * @see \AnvarUlugov\Validate\Validate
  */
 class Validate extends Facade
 {
