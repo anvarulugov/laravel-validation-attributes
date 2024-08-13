@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace AnvarUlugov\Validate\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class ValidateCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-validation-attributes';
 
     public $description = 'My command';
 
