@@ -2,9 +2,9 @@
 
 namespace AnvarUlugov\Validate;
 
+use AnvarUlugov\Validate\Commands\ValidateCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use AnvarUlugov\Validate\Commands\ValidateCommand;
 
 class ValidateServiceProvider extends PackageServiceProvider
 {

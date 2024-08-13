@@ -2,9 +2,9 @@
 
 namespace AnvarUlugov\Validate\Tests;
 
+use AnvarUlugov\Validate\ValidateServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use AnvarUlugov\Validate\ValidateServiceProvider;
 
 class TestCase extends Orchestra
 {
